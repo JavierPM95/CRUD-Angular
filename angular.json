@@ -121,8 +121,13 @@
               "devServerTarget": "firebase-CRUD-Fazt:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "firebase-CRUD-Fazt"
 }
